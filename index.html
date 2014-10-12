@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="buttons/css/buttons.css" />
+    <link rel="stylesheet" href="calc.css" />
+    <!-- <script src="http://buttonjax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> -->
+    <script src="jquery-1.11.0.js" type="text/javascript"></script>
+    <script src="lawnchair-0.6.1.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    var gVersion = "v0.9";
+    </script>
+</head>
+<body>
+    <h1>
+      Calculator
+      <span id=version></span>
+      <span id=minmax></span>
+      <button id=help class="button button-3d-primary button-rounded">help</button>
+    </h1>
+    <form id=calculator>
+        <div id="ios">
+            <div>
+              <ul id="postFormulas"></ul>
+              <ul id="postResults"></ul>
+            </div>
+            <p>
+            <div id="formulabox">
+                <input type=text id=formula><input type=submit value="=">
+                <!-- <button class="button button-3d-primary button-rounded button-override" value="Ent">=</button> -->
+            </div>
+        </div>
+        <p class=spacer>
+        <!-- Keypad -->
+        <div id="keypad">
+            <div>
+                <button id="k_slash" value="/" class="button button-3d-primary button-rounded button-override">/</button>
+                <button id="k_star"  value="*" class="button button-3d-primary button-rounded button-override">*</button>
+                <button id="k_dash"  value="-" class="button button-3d-primary button-rounded button-override">-</button>
+                <button id="k_bksp"  value="bs" class="button button-3d-primary button-rounded button-override">bs</button>
+            </div>
+            <div>
+                <button id="k_7" value="7" class="button button-3d-primary button-rounded button-override">7</button>
+                <button id="k_8" value="8" class="button button-3d-primary button-rounded button-override">8</button>
+                <button id="k_9" value="9" class="button button-3d-primary button-rounded button-override">9</button>
+                <!-- <button id="k_plus" value="+" class="button button-3d-primary button-rounded button-override">+</button> -->
+                <button id="k_esc"   value="esc" class="button button-3d-primary button-rounded button-override">C</button>
+            </div>
+            <div>
+                <button id="k_4" value="4" class="button button-3d-primary button-rounded button-override">4</button>
+                <button id="k_5" value="5" class="button button-3d-primary button-rounded button-override">5</button>
+                <button id="k_6" value="6" class="button button-3d-primary button-rounded button-override">6</button>
+                <button id="k_plus" value="+" class="button button-3d-primary button-rounded button-override">+</button>
+            </div>
+            <div>
+                <button id="k_1" value="1" class="button button-3d-primary button-rounded button-override">1</button>
+                <button id="k_2" value="2" class="button button-3d-primary button-rounded button-override">2</button>
+                <button id="k_3" value="3" class="button button-3d-primary button-rounded button-override">3</button>
+                <button id="k_enter" value="Ent" class="button button-3d-primary button-rounded button-override">Ent</button>
+            </div>
+            <div>
+                <button id="k_0" value="0" class="button button-3d-primary button-rounded button-override">0</button>
+                <button id="k_0" value="0" class="button button-3d-primary button-rounded button-override">0</button>
+                <button id="k_dot" value="." class="button button-3d-primary button-rounded button-override">.</button>
+                <button id="k_enter" value="Ent" class="button button-3d-primary button-rounded button-override">Ent</button>
+            </div>
+        </div>
+        <p class=spacer>
+    </form>
+
+    <p class=spacer>
+    <!-- <div>vptape.length<span id=debug></div>
+    <div>virtualPaperTape.lengthStore()<span id=debug2></div>
+    <div>localStore<span id=debug3></div> -->
+    <script type="text/javascript">
+        $('#version').html(gVersion);
+        //$('#formula').focus();
+    </script>
+    <script src="calc.js" type="text/javascript"></script>
+</body>
+</html>
