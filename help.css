@@ -1,0 +1,7 @@
+.list_h { font-size:1.25em; background-color:lightgreen;}
+
+.list_e { background-color:#f2fcf2; padding:0.25em; }
+
+.list_o { background-color:#e0e0e0; padding:0.25em; }
+
+.const , .mathfunc { font-weight:bold;}
