@@ -1,0 +1,21 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.didgood.simple-calculator"
+        version     = "0.9"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.5.0" />
+        <name>Simple Calculator 0.9</name>
+        <description>
+         A simple calculator with virtual papertape.
+        </description>
+
+        <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
+        Jesse Monroy
+        </author>
+        <gap:plugin name="org.apache.cordova.device" />
+    </widget>
