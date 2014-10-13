@@ -212,7 +212,7 @@ $(function() {
       e.preventDefault();
   });
 
-  $(document).on("showkeyboard", function() {
+  $(window).on("showkeyboard", function() {
       // 
       SoftKeyboard.hide();
   });
