@@ -40,5 +40,6 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-configuration android:reqKeyboardType="twelvekey" />
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="10"/>
 </manifest> 
