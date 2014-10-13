@@ -9,7 +9,7 @@ h1 {width:99%;min-width:240px;}
   padding: 0;
   text-align: right;
   float: left;
-  height: 7.9em;
+  height: 4.7em; /* 4.7=3-rows 7.9em=5-rows; */
   min-width: 15em;
   width: 81%;
   border: solid 2px;
@@ -19,7 +19,7 @@ h1 {width:99%;min-width:240px;}
   padding: 0;
   text-align: right;
   float: left;
-  height: 7.9em;
+  height: 4.7em; /* 4.7=3-rows 7.9em=5-rows; */
   min-width: 9em;
   width: 18%;
   border: solid 2px;

@@ -88,7 +88,7 @@ $(function() {
   ///
   var row_flip       = 0;
   var vptape         = new Array();
-  var vptape_max     = 4;
+  var vptape_max     = 3;
   var localStore     = {};
   if (window.localStorage) {
       console.log("we got storage.");
