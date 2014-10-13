@@ -109,6 +109,9 @@ $(function() {
     e.preventDefault();
     e.stopPropagation();
 
+    // 
+    SoftKeyboard.hide();
+
     var operation = $('#formula').val();
     console.log("operation:" + JSON.stringify(operation));
     
@@ -199,6 +202,8 @@ $(function() {
               $('#formula').val( $('#formula').val() + event.target.value );
       }
       $('#formula').focus();
+      // 
+      SoftKeyboard.hide();
   });
 
   //
