@@ -18,6 +18,5 @@
         Jesse Monroy
         </author>
         <gap:plugin name="org.apache.cordova.device" />
-        <gap:plugin name="de.phonostar.softkeyboard" version="0.1.1" />
 
     </widget>

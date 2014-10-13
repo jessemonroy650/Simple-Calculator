@@ -212,12 +212,6 @@ $(function() {
       e.preventDefault();
   });
 
-  $(window).on("showkeyboard", function() {
-      // 
-      SoftKeyboard.hide();
-      $('#formula').val( $('#formula').val() + "trig caugth" );
-  });
-
 
 });
 
