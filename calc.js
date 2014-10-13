@@ -212,7 +212,7 @@ $(function() {
       e.preventDefault();
   });
 
-  $('#formula').on("showkeyboard", function() {
+  $(window).on("showkeyboard", function() {
       // 
       SoftKeyboard.hide();
       $('#formula').val( $('#formula').val() + "trig caugth" );
