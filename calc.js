@@ -109,8 +109,6 @@ $(function() {
     e.preventDefault();
     e.stopPropagation();
 
-    // 
-    SoftKeyboard.hide();
 
     var operation = $('#formula').val();
     console.log("operation:" + JSON.stringify(operation));
@@ -201,9 +199,8 @@ $(function() {
           default:
               $('#formula').val( $('#formula').val() + event.target.value );
       }
-      $('#formula').focus();
       // 
-      SoftKeyboard.hide();
+      $('#formula').focus();
   });
 
   //
@@ -214,6 +211,12 @@ $(function() {
       location.assign("help.html");
       e.preventDefault();
   });
+
+  $(document).on("showkeyboard", function() {
+      // 
+      SoftKeyboard.hide();
+  });
+
 
 });
 
