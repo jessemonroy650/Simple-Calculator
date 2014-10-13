@@ -33,15 +33,12 @@
         android:debuggable="false">
         <activity android:name="SimpleCalculator" android:label="@string/app_name"
                 android:theme="@android:style/Theme.Black.NoTitleBar"
-                android:configChanges="orientation|locale"
-                android:windowSoftInputMode="stateHidden|stateAlwaysHidden">
+                android:configChanges="orientation|locale">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-    <uses-configuration android:reqKeyboardType="undefined" />
-
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="10"/>
 </manifest> 

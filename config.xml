@@ -7,8 +7,8 @@
         versionCode = "10" >
 
         <!-- versionCode is optional and Android only -->
-
         <preference name="phonegap-version" value="3.5.0" />
+
         <name>Simple Calculator 0.9</name>
         <description>
          A simple calculator with virtual papertape.
@@ -18,4 +18,6 @@
         Jesse Monroy
         </author>
         <gap:plugin name="org.apache.cordova.device" />
+        <gap:plugin name="de.phonostar.softkeyboard" version="0.1.1" />
+
     </widget>
