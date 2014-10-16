@@ -9,7 +9,7 @@ h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
   padding: 0;
   text-align: right;
   float: left;
-  height: 4.7em; /* 4.7=3-rows 7.9em=5-rows; */
+  height: 7.9em; /* 4.7=3-rows 7.9em=5-rows; This is implicitly tied to javascript:vptape_max */
   min-width: 15em;
   width: 81%;
   border: solid 2px;
@@ -30,7 +30,7 @@ h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
 }
 .button-override {
   font-family: Courier New, Fixed, monospace;
-  min-width: 5em;
+  min-width: 4em;
   padding: 0px;
 }
 button#help, button#back {
@@ -41,7 +41,7 @@ button#help, button#back {
   margin: 0;
   padding: 0.1em;
   font-size:1.25em;
-  max-width:14em;
+  max-width:10em;
 }
 
 .list_e { background-color:#f2fcf2; padding:0.125em 0.25em; margin:0; }
