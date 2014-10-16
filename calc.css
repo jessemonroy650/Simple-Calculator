@@ -31,7 +31,8 @@ h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
 .button-override {
   font-family: Courier New, Fixed, monospace;
   min-width: 4em;
-  padding: opx;
+  /* padding: 0px; */
+  margin: 0.25em 0;
 }
 button#help, button#back {
   float:right;
