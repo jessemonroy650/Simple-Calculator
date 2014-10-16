@@ -80,7 +80,7 @@ $(function() {
   ///
   ///  Initializing 
   ///
-  $('#formula').focus();
+  //$('#formula').focus();
   // $('#minmax').html("Max:" + Number.MAX_VALUE + " - Min:" + Number.MIN_VALUE);
 
   ///
@@ -200,7 +200,7 @@ $(function() {
               $('#formula').val( $('#formula').val() + event.target.value );
       }
       // 
-      $('#formula').focus();
+      //$('#formula').focus();
   });
 
   //
