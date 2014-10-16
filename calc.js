@@ -88,7 +88,7 @@ $(function() {
   ///
   var row_flip       = 0;
   var vptape         = new Array();
-  var vptape_max     = 5;  /* This is indirectly tied to css:postFormulas.height
+  var vptape_max     = 3;  /* This is indirectly tied to css:postFormulas.height
   var localStore     = {};
   if (window.localStorage) {
       console.log("we got storage.");

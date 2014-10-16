@@ -9,7 +9,7 @@ h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
   padding: 0;
   text-align: right;
   float: left;
-  height: 7.9em; /* 4.7=3-rows 7.9em=5-rows; This is implicitly tied to javascript:vptape_max */
+  height: 4.7em; /* 4.7=3-rows 7.9em=5-rows; This is implicitly tied to javascript:vptape_max */
   min-width: 15em;
   width: 81%;
   border: solid 2px;
@@ -31,7 +31,7 @@ h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
 .button-override {
   font-family: Courier New, Fixed, monospace;
   min-width: 4em;
-  padding: 0px;
+  padding: opx;
 }
 button#help, button#back {
   float:right;
