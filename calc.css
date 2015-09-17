@@ -1,4 +1,4 @@
-h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
+#h1 {width:99%;min-width:240px;margin-bottom: 0.25em;font-size:xx-large;font-weight:bold;}
 #visuals {
   float:left;
   height:100%;
@@ -12,7 +12,7 @@ h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
   height: 4.7em; /* 4.7=3-rows 7.9em=5-rows; This is implicitly tied to javascript:vptape_max */
   min-width: 15em;
   width: 81%;
-  border: solid 2px;
+  border: solid 1px;
 }
 #postResults {
   margin: 0;
@@ -22,6 +22,14 @@ h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
   height: 4.7em; /* 4.7=3-rows 7.9em=5-rows; */
   min-width: 9em;
   width: 18%;
+  border: solid 1px;
+}
+#formula {
+  font-family: Courier New, Fixed, monospace;
+  margin: 0;
+  padding:0.2em 0.1em;
+  font-size:2em;
+  max-width:10em;
   border: solid 2px;
 }
 #keypad {
@@ -30,26 +38,32 @@ h1 {width:99%;min-width:240px;margin-bottom: 0.25em;}
 }
 .button-override {
   font-family: Courier New, Fixed, monospace;
-  min-width: 4em;
+  min-height: 3.5em;
+  min-width: 4.5em;
   /* padding: 0px; */
-  margin: 0.25em 0;
+  margin:0;
 }
 button#help, button#back {
   float:right;
 }
-#formula {
-  font-family: Courier New, Fixed, monospace;
-  margin: 0;
-  padding: 0.1em;
-  font-size:1.25em;
-  max-width:10em;
+#k_0 {
+  min-width: 9em;
 }
-
 .list_e { background-color:#f2fcf2; padding:0.125em 0.25em; margin:0; }
-
 .list_o { background-color:#e0e0e0; padding:0.125em 0.25em; margin:0; }
 
 #version { background-color:#e2ece2; font-size:medium; padding:0.25em; border-radius:4px;}
 #minmax { float:right;background-color:#f2fcf2; font-size:medium; }
+
+@media only screen and (min-width:321px) and (max-width:640px) {
+	#postFormulas {min-width: 10em;width: 61%;}
+	#postResults {min-width: 5em;}
+}
+@media only screen and (max-width:320px) {
+	#h1 {font-size:x-large;font-weight:bold;}
+	#postFormulas {min-width: 10em;width: 70%;}
+	#postResults {min-width: 5em;}
+	button#help, button#back {font-size:small;}
+}
 
 
